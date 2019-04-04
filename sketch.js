@@ -207,6 +207,12 @@ function drawTopContextWords(thisContextWord,a,i){
       noStroke();
       text(thisContextWord[l][0],xloc2,yloc2);
       //text(topContextWords[a][i][l][0],xloc,yloc+30+l*20);
+      if (keyIsDown(13)){ //display word counts when enter key is held
+        textSize(25);
+        text(topKeys[a][i][1],xloc,yloc+25);
+        textSize(18);
+        text(topContextWords[a][i][l][1],xloc2,yloc2+20);
+    }
     }
 }
 }
