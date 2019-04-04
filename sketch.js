@@ -20,7 +20,7 @@ function preload() {
   neely = loadStrings('data/neely.txt');
   willye = loadStrings('data/willye.txt');
   housingimg = loadImage('images/housing.PNG');  
-  clickbaitimg = loadImage('images/clickbait.PNG');
+  clickbaitimg = loadImage('images/clickbait.png');
   walkupimg = loadImage('images/walkup.PNG');
   neelyimg = loadImage('images/neely.PNG');
   willyeimg = loadImage('images/willye.PNG');
